@@ -1,3 +1,35 @@
+chess-gpt2-uci-12x12x768:
+  config_overrides:
+    dataset_path: austindavis/lichess-uci-tokenized-768
+    center_writing_weights: false
+  conversion_func: null
+  model: austindavis/chess-gpt2-uci-12x12x768
+  repo_id: austindavis/chess-gpt2-uci-12x12x768-saes
+  saes:
+  - id: blocks.0.hook_resid_post
+    path: blocks.0.hook_resid_post
+  - id: blocks.1.hook_resid_post
+    path: blocks.1.hook_resid_post
+  - id: blocks.2.hook_resid_post
+    path: blocks.2.hook_resid_post
+  - id: blocks.3.hook_resid_post
+    path: blocks.3.hook_resid_post
+  - id: blocks.4.hook_resid_post
+    path: blocks.4.hook_resid_post
+  - id: blocks.5.hook_resid_post
+    path: blocks.5.hook_resid_post
+  - id: blocks.6.hook_resid_post
+    path: blocks.6.hook_resid_post
+  - id: blocks.7.hook_resid_post
+    path: blocks.7.hook_resid_post
+  - id: blocks.8.hook_resid_post
+    path: blocks.8.hook_resid_post
+  - id: blocks.9.hook_resid_post
+    path: blocks.9.hook_resid_post
+  - id: blocks.10.hook_resid_post
+    path: blocks.10.hook_resid_post
+  - id: blocks.11.hook_resid_post
+    path: blocks.11.hook_resid_post
 deepseek-r1-distill-llama-8b-qresearch:
   conversion_func: deepseek_r1
   model: deepseek-ai/DeepSeek-R1-Distill-Llama-8B
